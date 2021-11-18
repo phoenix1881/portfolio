@@ -14,14 +14,63 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <title>Portfolio Website</title>
+
+    <style>
+        .scrollbar::-webkit-scrollbar {
+            display: none;
+
+        }
+    </style>
+
+
 </head>
 <body>
+
+    <!--Nav Bar-->
+    
+    <nav class="navbar navbar-expand-md fixed-top" style="background-color: black;" >
+        <div class="container">
+            <a href="/final.html" class="navbar-brand font-weight-bold text-light">Tejdeep Ch</a>
+
+            <button class="btn btn-outline-primary  text-primary ml-auto "> Contact Me</button>
+
+            <button class="navbar-toggler" data-toggle="collapse " data-target="#items">
+                <i class="fas fa-hamburger " style="color: rgb(0, 132, 255);"></i>
+
+
+            </button>
+
+            
+            
+            <div class=" collapse navbar-collapse flex-grow-0" id= "items">
+                <div class="navbar-nav">
+                    <div class="nav-item nav-link text-primary font-weight-bold mx-3 my-auto">
+                        Blogs
+                    </div>
+                </div>
+
+            </div>
+
+            
+
+        </div>
+
+            
+    
+    
+    </nav>
+
+
+    
+    
+
+     
     
 
     <!--Title section-->
 
     <div class = "container text-center">
-        <div class = "row text-center align-items-center">
+        <div class = "row text-center align-items-center my-4 pt-5">
             <div class = "col-12 col-md-6 my-3"><img src="IMG_2817.JPG" class = "img-fluid rounded-circle w-75 " alt="image"></div>
             <div class = "col-12 col-md-6 pt-5"><div class = "my-3 " style="font-size: x-large; vertical-align: auto;">Hi, This is <span class="text-info">Tejdeep</span></div>
             <h4 class="font-weight-light ">I am a student at IIIT Delhi</h4>
@@ -31,6 +80,226 @@
         </div>
         
     </div>
+
+
+    <!--Recommendation Section-->
+
+    <div class="container-fluid my-5">
+        <div class="row text-center py-5 d-flex flex-nowrap overflow-auto scrollbar">
+            <div class="col-12 col-md-4 ">
+                <div class="card shadow h-100">
+                    <div class="card-body">
+                        <h4 class = "card-text pt-4">Good projects</h4>
+                        <p class="card-text text-secondary mb-0">random</p>
+                        <p class="card-text text-secondary mb-0 text-info mb-2">random company</p>
+
+                    </div>
+                    
+                </div>
+            </div>
+
+            
+
+            <div class="col-12 col-md-4 ">
+                <div class="card shadow h-100">
+                    <div class="card-body">
+                        <h4 class = "card-text pt-4">Good projects</h4>
+                        <p class="card-text text-secondary mb-0">random</p>
+                        <p class="card-text text-secondary mb-0 text-info mb-2">random company</p>
+
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4 ">
+                <div class="card shadow h-100">
+                    <div class="card-body">
+                        <h4 class = "card-text pt-4">Good projects</h4>
+                        <p class="card-text text-secondary mb-0">random</p>
+                        <p class="card-text text-secondary mb-0 text-info mb-2">random company</p>
+
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4 ">
+                <div class="card shadow h-100">
+                    <div class="card-body">
+                        <h4 class = "card-text pt-4">Good projects</h4>
+                        <p class="card-text text-secondary mb-0">random</p>
+                        <p class="card-text text-secondary mb-0 text-info mb-2">random company</p>
+
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Tech Stack -->
+
+    <div class="bg-light w-100 py-3">
+        <div class = "container text-center align-items-center" >
+            <h1 class = "font-weight-light">Technology <span class="text-info">Stack</span> </h1>
+            <div class = "lead mb-4"> I use these skills in my projects.</div>
+
+            <div class = "d-flex flex-wrap justify-content-around">
+                <div  class = "h1 text-center align-items-center" style="width: 100px; height: 100px;">
+                    <i class="fab fa-html5"></i>
+                    <h5 class="text-center my-4 text-info font-weight-light">HTML 5</h5>
+                </div>
+    
+                <div  class = "h1 text-center align-items-center" style="width: 100px; height: 100px;">
+                    <i class="fab fa-css3-alt"></i>
+                    <h5 class="text-center my-4 text-info font-weight-light">CSS</h5>
+                </div>
+                <div  class = "h1 text-center align-items-center" style="width: 100px; height: 100px;">
+                    <i class="fab fa-bootstrap"></i>
+                    <h5 class="text-center my-4 text-info font-weight-light">BootStrap</h5>
+                </div>
+                
+            </div>
+        </div>
+
+        
+
+
+    </div>
+
+
+    <!--Projects section-->
+
+    <div class="container my-5 text-center">
+        <h1 class = "font-weight-light">My<span class="text-info">projects</span> </h1>
+        <div class = "lead mb-4"> I make other stuff too other than this website</div>
+
+        <div class="row my-5 pt-3 ">
+            <div class="col-12 col-md-4 my-2">
+                <div class="card shadow h-100">
+                    <img class = "card-img-top" src="th.jfif" alt="image">
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            Proj 1
+                        </h4>
+                        <p class="card-text">This is a project..</p>
+                        <a href="#" class="stretched-link "></a>
+
+
+                    </div>
+                    
+                </div>
+
+            </div>
+            <div class="col-12 col-md-4 my-2 ">
+                <div class="card shadow h-100">
+                    <img class = "card-img-top" src="th.jfif" alt="image">
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            Proj 3
+                        </h4>
+                        <p class="card-text">This is a project.. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+                        <a href="#" class="stretched-link "></a>
+
+
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <div class="col-12 col-md-4 my-2">
+                <div class="card shadow h-100">
+                    <img class = "card-img-top" src="th.jfif" alt="image">
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            Proj 2
+                        </h4>
+                        <p class="card-text">This is a project..</p>
+                        <a href="#" class="stretched-link "></a>
+
+
+                    </div>
+                    
+                </div>
+                
+            </div>
+
+
+        </div>
+
+        <div class="text-warning text-right">
+            <a href="#" style="align-items: center;">See my projects <i class="fas fa-chevron-right align-middle"></i></a>
+
+        </div>
+
+
+
+
+    </div>
+
+
+    <!--About me section-->
+
+    <div class = "bg-light">
+        <div class="container my-3 text-center">
+            <h2 class="font-weight-light pt-3"> <span class="text-info"> About</span>  me</h4>
+            <p class="pb-3">I am a Student and a web developer</p>
+
+            <div class="row align-items-center align-middlejustify-content-between px-5">
+                <div class="column-12 col-md-5 text-justify my-3 ">
+                    <h5 class="text-center"> What can I do?</h5>
+                    <p>I do stuff a lot but this is just a test so ignore the text written here don't have a good day, have a great day.</p>
+
+                </div>
+
+                <div class="column-2 col-md-2">
+
+                </div>
+
+                
+
+                <div class="column-12 col-md-5 text-justify ">
+                    <h5 class="text-center"> What am I doing currently?</h5>
+                    <p>I do stuff a lot but this is just a test so ignore the text written here don't have a good day, have a great day.</p>
+
+                </div>
+
+            </div>
+
+            <div class="row align-items-center align-middle px-5 justify-content-between my-3 pb-3">
+                <div class="column-12 col-md-5 text-justify ">
+                    <h5 class="text-center"> What do I believe?</h5>
+                    <p>I do stuff a lot but this is just a test so ignore the text written here don't have a good day, have a great day.</p>
+
+                </div>
+
+                <div class="column-2 col-md-2">
+
+                </div>
+
+                <div class="column-12 col-md-5 text-justify ">
+                    <h5 class="text-center"> How can I help you?</h5>
+                    <p>I do stuff a lot but this is just a test so ignore the text written here don't have a good day, have a great day.</p>
+
+                </div>
+
+            </div>
+    
+        </div>
+
+
+    </div>
+
+    
+
+
+
+    
 
 
     <!-- Footer section -->
@@ -79,11 +348,6 @@
                 <i class="fas fa-envelope h1 d-block"></i>
                 
             </a>
-
-            
-
-
-
 
         </div>
 
